@@ -1,4 +1,4 @@
-const todo = require( '../models/todos' );
+const todo = require( '../models/todos.model' );
 
 async function get( req, res, next ) {
 	try {
